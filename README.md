@@ -6,3 +6,5 @@ Usando o comando "document.body.classList.add('Nome da classe');" para criar um 
 Configurando o em CSS também é simples: ".classe".
 
 Peço perdão caso eu tenha cometido algum erro em relação aos diretórios do "post" e obrigado pela compreensão, espero que seja útil.
+
+Também gostaria de agradecer ao CodeFox - Tobi!https://github.com/CodeF0x
