@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.manha {
+  background-color: lightblue;
+}
+
+.tarde {
+  background-color: orange;
+}
+
+.noite {
+  background-color: black;
+
+</style>
+</head>
+<body>
+    <script>
+
+   var date = new Date();
+
+   var hour = date.getHours();
+
+if (hour < 13) {
+  document.body.classList.add('manha'); // De acordo com o horário, adicione uma class para o documento em body
+} else if (hour < 18) {
+  document.body.classList.add('tarde');
+} else {
+  document.body.classList.add('noite');
+  
+}
+
+  </script>
+</body>
+</html>
